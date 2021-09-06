@@ -6,57 +6,97 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Urbanist:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
         <style>
             body {
-                padding: 5% 10%;
+                padding: 0% 10%;
+                padding-bottom: 10%;
             }
             h1 {
                 font-family: 'Urbanist', sans-serif;
+                font-weight: 600;
                 text-transform: uppercase;
-                padding: 5% 0%;
+                padding: 3% 0%;
             }
             h2 {
                 font-family: 'Urbanist', sans-serif;
                 font-weight: 600;
                 font-size: 1.5em;
                 text-transform: uppercase;
+                margin-bottom: 0%;
             }
             p {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 300;
                 font-size: 1em;
             }
+            .logo {
+                padding-top: 5%;
+            }
             .title {
                 font-weight: 600;
                 color: #54B3F9;
             }
+            .flavors {
+                padding: 1% 0%;
+            }
+            .drink {
+                padding: 1% 0%;
+            }
         </style>
+        <title>Blu Lounge</title>
     </head>
     <body>
+        <div class="container text-center logo">
+            <img src="logo.png" width="300px">
+        </div>
         <div class="container">
             <div class="row text-left">
                 <h1>[Vodka]</h1>
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Moscow Mule</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                    <span class="badge rounded-pill bg-primary">Fizzy</span>
+                </div>
                 <p>Absolut Citron Vodka, Domaine de Canton, Ginger Beer, Lime Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Fruity Russian</h2>
-                <p>Ketel One Vodka, Mango Liqueur, Peach Liqueur, Elderflower Liqueur, Pineapple Juice</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                </div>
+                <p>Ketel One Vodka, Mango Liqueur, Peach Liqueur, Strawberry Liqueur, Pineapple Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Princess Martini</h2>
-                <p>Absolut Vanilla Vodka, Passion Fruit Puree, Triple Sec, Simple Syrup, Lime Juice</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                </div>
+                <p>Absolut Vanilla Vodka, Passion Fruit Puree, Triple Sec, Simple Syrup, Lime Juice, Passion Fruit Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Cosmopolitan</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Absolut Citron Vodka, Triple Sec, Cranberry Juice, Lime Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Bay Breeze</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Ketel One Vodka, Cranberry Juice, Pineapple Juice, Lime Juice</p>
             </div>
         </div>
@@ -67,24 +107,37 @@
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Old Fashioned</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Strong</span>
+                </div>
                 <p>Basil Hayden's Bourbon, Simple Syrup, Angostura Bitters</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Mint Julep</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Strong</span>
+                </div>
                 <p>Basil Hayden's Bourbon, Mint Leaves, Honey Syrup, Angostura Bitters, Splash of Sprite</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Penicillin</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Strong</span>
+                </div>
                 <p>Glenlivet 12 Scotch, Domaine de Canton, Honey Ginger Syrup, Lime Juice</p>
             </div>
-            <div class="row text-left">
-                <h2>Viceroy</h2>
-                <p>Redemption Rye, Bay Leaves, Dark Brown Sugar Syrup, Angostura Bitters, Green Tea</p>
-            </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Highball</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Strong</span>
+                </div>
                 <p>Basil Hayden's Bourbon / Redemption Rye, Simple Syrup, Ginger Ale</p>
             </div>
         </div>
@@ -95,24 +148,56 @@
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Cupid's Arrow</h2>
-                <p>Beefeater Pink Gin, Rose &amp; Elderflower Cordial, Simple Syrup, Tonic Water, Rose Water</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
+                <p>Beefeater Pink Gin, Rose &amp; Elderflower Cordial, Grenadine Syrup, Tonic Water, Rose Water</p>
             </div>
-            <div class="row text-left">
-                <h2>Herb Gimlet</h2>
+            <div class="drink">
+                <h2>Summer Blossom</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
+                <p>Hendrick's Gin, Mango Liqueur, Peach Liqueur, Orange Liqueur, Simple Syrup, Fruit Juice</p>
+            </div>
+            <div class="drink">
+                <h2>Nature Lover</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Hendrick's Gin, Grapefruit Juice, Rosemary Sprigs, Simple Syrup, Tonic Water</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
+                <h2>Juniper Buck</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
+                <p>Hendrick's Gin, Domaine de Canton, Simple Syrup, Lime Juice, Ginger Beer</p>
+            </div>
+            <div class="drink">
                 <h2>Berry Bramble</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Bombay Bramble Gin, Blackberry Liqueur, Raspberry Liqueur, Lime Juice, Tonic Water</p>
             </div>
-            <div class="row text-left">
-                <h2>Elderflower Blossom</h2>
-                <p>Beefeater Pink Gin, Elderflower Liqueur, Simple Syrup, Lime Juice, Tonic Water</p>
-            </div>
-            <div class="row text-left">
-                <h2>Pink Spritz</h2>
+            <div class="drink">
+                <h2>Strawberry Spritz</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Fizzy</span>
+                </div>
                 <p>Hendrick's Gin, Strawberry Liqueur, Pink Lemonade, Prosecco</p>
             </div>
         </div>
@@ -123,25 +208,50 @@
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Mint Mojito</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fizzy</span>
+                </div>
                 <p>George Ocean White Rum, Mint Leaves, Lime Juice, Sprite</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Maui Mango</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Fizzy</span>
+                </div>
                 <p>Largo Bay Mango Rum, Mango Liqueur, Mango Juice, Sprite</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Piña Colada</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                </div>
                 <p>Appleton Estate 12, Koloa Coconut Rum, Cream of Coconut, Pineapple Juice, Lime Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Mai Tai</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                </div>
                 <p>Appleton Estate 12, Orange Curaçao, Orgeat Syrup, Lime Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Dark 'N Stormy</h2>
-                <p>Gosling's Black Seal Rum, Gosling's Ginger Beer, Lime Juice</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                    <span class="badge rounded-pill bg-primary">Fruity</span>
+                    <span class="badge rounded-pill bg-primary">Fizzy</span>
+                </div>
+                <p>Gosling's Black Seal Rum, Gosling's Ginger Beer, Simple Syrup, Lime Juice</p>
             </div>
         </div>
 
@@ -151,24 +261,45 @@
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Margarita</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Fortaleza Blanco Tequila, Triple Sec, Agave Syrup, Lime Juice, Jarritos Soda</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Sol Dorado</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Don Julio Blanco Tequila, Domaine de Canton, Agave Syrup, Lime Juice, Ginger Beer</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Paloma</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Signature</span>
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Tart</span>
+                </div>
                 <p>Siete Leguas Reposado Tequila, Grapefruit Juice, Orange Curaçao, Agave Syrup, Lime Juice</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Sunrise</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
                 <p>Teremana Blanco Tequila, Orange Juice, Grenadine Syrup</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>El Viejo</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                    <span class="badge rounded-pill bg-primary">Strong</span>
+                </div>
                 <p>Casamigos Añejo Tequila, Agave Syrup, Angostura Bitters</p>
             </div>
         </div>
@@ -179,24 +310,39 @@
             </div>
         </div>
         <div class="container">
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Mudslide</h2>
-                <p>Absolut Vanilla Vodka, Kahlua Coffee Liqueur, Irish Cream Liqueur, Organic Milk, Chocolate Syrup</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
+                <p>Absolut Vanilla Vodka, Kahlua Coffee Liqueur, Irish Cream Liqueur, Chocolate Syrup</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Pumpkin Pie</h2>
-                <p>Absolut Vanilla Vodka, Rum Chata, Goldenschläger Liqueur, Pumpkin Spice</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
+                <p>Absolut Vanilla Vodka, Rum Chata, Goldenschläger Liqueur, Pumpkin Spice Liqueur</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Chaiwala</h2>
-                <p>Absolut Vanilla Vodka, Homemade Masala Chai, Irish Cream Liqueur</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
+                <p>Absolut Vanilla Vodka, Somrus Chai Cream Liqueur, Irish Cream Liqueur</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Snowflake</h2>
-                <p>Rum Chata, Koloa Coconut Rum, Pineapple Juice, Coconut Milk</p>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
+                <p>Rum Chata, Koloa Coconut Rum, Pineapple Juice, Coconut Milk, Coconut Flakes</p>
             </div>
-            <div class="row text-left">
+            <div class="drink">
                 <h2>Cacao Martini</h2>
+                <div class="flavors">
+                    <span class="badge rounded-pill bg-primary">Sweet</span>
+                </div>
                 <p>Ketel One Vodka, Irish Cream Liqueur, Creme de Cacao, Chocolate Flakes</p>
             </div>
         </div>
